@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-container {
+  background-color: #00aaff;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.footer {
+  width: 80%;
+  height: 40vh;
+  background-color: #00aaff;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+.footer-heading a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+  color: black;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #06c;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: rgb(51, 177, 51);
+  transition: all 0.4s ease-out;
+}
+@media screen and (max-width: 1200px) {
+  .footer-email-form {
+    margin-top: 2.2rem;
+  }
+}
+@media screen and (max-width: 755px) {
+  .footer-3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 555px) {
+  .footer-email-form input {
+    display: block;
+  }
+  .footer-container {
+    height: 100vh;
+  }
+  .footer {
+    height: 85vh;
+  }
+}
+@media and (max-width: 520) {
+}
+@media screen and (max-width: 490px) {
+  .footer-1 {
+    margin-right: 7rem;
+    padding-left: 1rem;
+  }
+  .footer-2 {
+    margin-top: 2.2rem;
+  }
+  .footer-email-form {
+    margin-left: 2.8rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  #footer-email {
+    width: 95%;
+  }
+  .footer-1 {
+    margin-left: 0.3rem;
+    padding-left: 2.4rem;
+  }
+  .footer-2 {
+    margin-left: 2rem;
+  }
+}
