@@ -11,7 +11,8 @@
 }
 .footer {
   width: 80%;
-  height: 40vh;
+  /* height: 40vh; */
+  height: 350px;
   background-color: #00aaff;
   margin: 0 auto;
   display: flex;
@@ -67,6 +68,9 @@
   background-color: rgb(51, 177, 51);
   transition: all 0.4s ease-out;
 }
+#footer-email-btn:active {
+  background-color: rgb(44, 221, 44);
+}
 @media screen and (max-width: 1200px) {
   .footer-email-form {
     margin-top: 2.2rem;
@@ -77,20 +81,22 @@
     display: none;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 740px) {
   .footer-email-form input {
     display: block;
   }
   .footer-container {
     height: 100vh;
+    /* height: 100%; */
   }
   .footer {
     height: 85vh;
   }
 }
-@media and (max-width: 520) {
-}
 @media screen and (max-width: 490px) {
+  .footer-container {
+    height: 750px;
+  }
   .footer-1 {
     margin-right: 7rem;
     padding-left: 1rem;
